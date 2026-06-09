@@ -16,15 +16,10 @@
     "trafficLimitStrategy": "NO_RESET"
   },
   "links": [
-    "vless://92fa75cc-7508-4e94-8862-d7b908e74ffe@balancer.optimum.com:1234?encryption=none&type=tcp&security=none#%D0%9E%D0%BF%D1%82%D0%B8%D0%BC%D1%83%D0%BC%20%F0%9F%87%B7%F0%9F%87%BA%20%F0%9F%87%B5%F0%9F%87%B1%20%F0%9F%87%AA%F0%9F%87%B8%20%F0%9F%87%B3%F0%9F%87%B1%20%F0%9F%87%AC%F0%9F%87%A7%20%F0%9F%87%A8%F0%9F%87%BF",
-    "vless://92fa75cc-7508-4e94-8862-d7b908e74ffe@balancer.optimum2.com:1234?encryption=none&type=tcp&security=none#%D0%9E%D0%BF%D1%82%D0%B8%D0%BC%D1%83%D0%BC-2%20%F0%9F%87%B7%F0%9F%87%BA%20%F0%9F%87%B5%F0%9F%87%B1%20%F0%9F%87%AA%F0%9F%87%B8%20%F0%9F%87%B3%F0%9F%87%B1%20%F0%9F%87%AC%F0%9F%87%A7%20%F0%9F%87%A8%F0%9F%87%BF",
-    "vless://92fa75cc-7508-4e94-8862-d7b908e74ffe@balancer.poland.com:1234?encryption=none&type=tcp&security=none#%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%20%F0%9F%87%B5%F0%9F%87%B1",
-    "vless://92fa75cc-7508-4e94-8862-d7b908e74ffe@balancer.ultra.com:1234?encryption=none&type=tcp&security=none#%D0%A3%D0%BB%D1%8C%D1%82%D1%80%D0%B0%20%20(%D0%91%D0%B5%D0%BB%D1%8B%D0%B5%20%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8%20LTE)%20%F0%9F%87%B7%F0%9F%87%BA%20",
-    "vless://92fa75cc-7508-4e94-8862-d7b908e74ffe@balancer.austria.com:1234?encryption=none&type=tcp&security=none#%D0%90%D0%B2%D1%81%D1%82%D1%80%D0%B8%D1%8F%20%F0%9F%87%A6%F0%9F%87%B9%20",
-    "vless://92fa75cc-7508-4e94-8862-d7b908e74ffe@balancer.usa.com:1234?encryption=none&type=tcp&security=none#%D0%A1%D0%A8%D0%90%20%F0%9F%87%BA%F0%9F%87%B8",
-    "vless://92fa75cc-7508-4e94-8862-d7b908e74ffe@france.balancer.com:1234?encryption=none&type=tcp&security=none#%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F%20%F0%9F%87%AB%F0%9F%87%B7%20",
-    "vless://92fa75cc-7508-4e94-8862-d7b908e74ffe@sg.balancer.com:1234?encryption=none&type=tcp&security=none#%D0%A1%D0%B8%D0%BD%D0%B3%D0%B0%D0%BF%D1%83%D1%80%20%F0%9F%87%B8%F0%9F%87%AC",
-    "vless://92fa75cc-7508-4e94-8862-d7b908e74ffe@hk.balancer.com:1234?encryption=none&type=tcp&security=none#%D0%93%D0%BE%D0%BD%D0%BA%D0%BE%D0%BD%D0%B3%20%F0%9F%87%AD%F0%9F%87%B0%20"
+    "vless://6585a62b-4d8b-48cc-bdad-e2542504d748@167.68.5.43:8443?type=xhttp&security=tls&path=/&sni=Itsrezu2.dr-ping.com&fp=chrome#%F0%9F%87%A8%F0%9F%87%BE%20Cyprus%2C%20Famagusta%20%7C%20%5BBL%5D",
+    "vless://6585a62b-4d8b-48cc-bdad-e2542504d748@194.36.55.163:8443?mode=auto&path=/&security=tls&alpn=h2,http/1.1&encryption=none&insecure=0&host=Itsrezu2.dr-ping.com&fp=chrome&type=xhttp&allowInsecure=0&sni=Itsrezu2.dr-ping.com#%F0%9F%87%A8%F0%9F%87%BE%20Cyprus%2C%20Famagusta%20%7C%20%5BBL%5D",
+    "vless://6585a62b-4d8b-48cc-bdad-e2542504d748@194.36.55.163:8443?type=xhttp&security=tls&path=/&sni=Itsrezu2.dr-ping.com&fp=chrome#%F0%9F%87%A8%F0%9F%87%BE%20Cyprus%2C%20Famagusta%20%7C%20%5BBL%5D",
+    "vless://6585a62b-4d8b-48cc-bdad-e2542504d748@45.131.4.173:8443?type=xhttp&security=tls&path=/&sni=Itsrezu2.dr-ping.com&fp=chrome#%F0%9F%87%A8%F0%9F%87%BE%20Cyprus%2C%20Famagusta%20%7C%20%5BBL%5D"
   ],
   "ssConfLinks": {
 
