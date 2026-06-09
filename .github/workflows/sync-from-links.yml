@@ -21,7 +21,7 @@ jobs:
           
           # Проверяем, существует ли файл со списком источников
           if [ ! -f .github/workflows/sources.txt ]; then
-            echo "❌ Файл sources.txt не найден в корне репозитория!"
+            echo "❌ Файл .github/workflows/sources.txt не найден!"
             exit 1
           fi
           
@@ -64,11 +64,8 @@ jobs:
             rm "$target.tmp"
             echo "✅ Сохранено: $target"
             
-          done < sources.txt
-          
-          # Опционально: удалить файлы, которых больше нет в sources.txt?
-          # Пока оставляем – не удаляем. Если нужно удалять – допишем.
-          
+          done < .github/workflows/sources.txt
+
       - name: Commit и push изменений
         run: |
           cd my-mirror
