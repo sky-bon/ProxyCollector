@@ -1,0 +1,83 @@
+name: Ежечасная синхронизация по списку ссылок
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout свой репозиторий
+        uses: actions/checkout@v4
+        with:
+          path: my-mirror
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Синхронизация файлов из sources.txt
+        run: |
+          cd my-mirror
+          
+          # Проверяем, существует ли файл со списком источников
+          if [ ! -f sources.txt ]; then
+            echo "❌ Файл sources.txt не найден в корне репозитория!"
+            exit 1
+          fi
+          
+          # Читаем файл построчно, игнорируя пустые строки и комментарии (#)
+          while IFS= read -r line; do
+            # Пропускаем комментарии и пустые строки
+            [[ "$line" =~ ^[[:space:]]*# ]] && continue
+            [[ -z "$line" ]] && continue
+            
+            # Разделяем на целевую папку+имя и URL
+            target=$(echo "$line" | awk '{print $1}')
+            url=$(echo "$line" | awk '{print $2}')
+            
+            if [ -z "$target" ] || [ -z "$url" ]; then
+              echo "⚠️ Пропущена некорректная строка: $line"
+              continue
+            fi
+            
+            echo "📥 Скачиваю $url -> $target"
+            
+            # Создаём целевую директорию, если её нет
+            mkdir -p "$(dirname "$target")"
+            
+            # Скачиваем файл во временный файл
+            curl -L -s -S --fail "$url" -o "$target.tmp" || {
+              echo "❌ Ошибка скачивания $url"
+              continue
+            }
+            
+            # Добавляем служебный заголовок в начало файла
+            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+            {
+              echo "# Обновлено: $TIMESTAMP"
+              echo "# Исходный URL: $url"
+              echo "# Автоматическая синхронизация из githubmirror (каждый час)"
+              echo "#"
+              cat "$target.tmp"
+            } > "$target"
+            
+            rm "$target.tmp"
+            echo "✅ Сохранено: $target"
+            
+          done < sources.txt
+          
+          # Опционально: удалить файлы, которых больше нет в sources.txt?
+          # Пока оставляем – не удаляем. Если нужно удалять – допишем.
+          
+      - name: Commit и push изменений
+        run: |
+          cd my-mirror
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          if git diff --staged --quiet; then
+            echo "Нет изменений для коммита"
+          else
+            git commit -m "Автосинхронизация по sources.txt от $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git push
+          fi
