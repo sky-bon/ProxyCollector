@@ -1,0 +1,17 @@
+{
+  "isFound": true,
+  "user": {
+    "shortUuid": "ваш-короткий-uuid",
+    "daysLeft": 30,
+    "trafficUsed": "0 B",
+    "trafficLimit": "0",
+    "expiresAt": "2026-12-31T23:59:59.999Z",
+    "isActive": true,
+    "userStatus": "ACTIVE"
+  },
+  "links": [
+    "vless://...",
+    "vmess://..."
+  ],
+  "subscriptionUrl": "https://raw.githubusercontent.com/sky-bon/ProxyCollector/main/subscription.json"
+}
