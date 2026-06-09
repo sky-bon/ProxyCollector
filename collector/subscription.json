@@ -5,12 +5,20 @@
     "daysLeft": 30,
     "trafficUsed": "0 B",
     "trafficLimit": "0",
+    "lifetimeTrafficUsed": "0 B",
+    "lifetimeTrafficUsedBytes": "0",
+    "trafficLimitBytes": "0",
+    "trafficUsedBytes": "0",
+    "username": "github_mirror_user",
     "expiresAt": "2026-12-31T23:59:59.999Z",
     "isActive": true,
-    "userStatus": "ACTIVE"
+    "userStatus": "ACTIVE",
+    "trafficLimitStrategy": "NO_RESET"
   },
   "links": [
-    "hysteria2://e3a5bb40be52de65@89.251.26.111:55555/?insecure=1&sni=apps.apple.com#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Tsuen%20Wan%20%7C%20%5BBL%5D"
+    "hysteria2://e3a5bb40be52de65@89.251.26.111:55555/?insecure=1&sni=apps.apple.com#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Tsuen%20Wan%20%7C%20%5BBL%5D",
+    "vless://TOFAN-TRADE@fastly.com:80?type=xhttp&security=none&path=/&host=InternetAzadRobot31dx253.global.ssl.fastly.net&mode=auto#%F0%9F%87%AB%F0%9F%87%B7%20France%2C%20Gravelines%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D"
   ],
+  "ssConfLinks": {},
   "subscriptionUrl": "https://github.com/sky-bon/ProxyCollector/raw/refs/heads/main/collector/subscription.json"
 }
