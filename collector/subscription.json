@@ -17,7 +17,7 @@
   },
   "links": [
     "hysteria2://e3a5bb40be52de65@89.251.26.111:55555/?insecure=1&sni=apps.apple.com#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%2C%20Tsuen%20Wan%20%7C%20%5BBL%5D",
-    vless://6585a62b-4d8b-48cc-bdad-e2542504d748@167.68.5.43:8443?type=xhttp&security=tls&path=/&sni=Itsrezu2.dr-ping.com&fp=chrome#%F0%9F%87%A8%F0%9F%87%BE%20Cyprus%2C%20Famagusta%20%7C%20%5BBL%5D
+    "vless://6585a62b-4d8b-48cc-bdad-e2542504d748@167.68.5.43:8443?type=xhttp&security=tls&path=/&sni=Itsrezu2.dr-ping.com&fp=chrome#%F0%9F%87%A8%F0%9F%87%BE%20Cyprus%2C%20Famagusta%20%7C%20%5BBL%5D"
   ],
   "ssConfLinks": {},
   "subscriptionUrl": "https://github.com/sky-bon/ProxyCollector/raw/refs/heads/main/collector/subscription.json"
