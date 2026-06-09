@@ -20,7 +20,7 @@ jobs:
           cd my-mirror
           
           # Проверяем, существует ли файл со списком источников
-          if [ ! -f sources.txt ]; then
+          if [ ! -f .github/workflows/sources.txt ]; then
             echo "❌ Файл sources.txt не найден в корне репозитория!"
             exit 1
           fi
