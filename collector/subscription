@@ -28,5 +28,6 @@
   ],
   "ssConfLinks": {
 
-  }
+  },
+  "subscriptionUrl": "https://github.com/sky-bon/ProxyCollector/raw/refs/heads/main/collector/subscription"
 }
