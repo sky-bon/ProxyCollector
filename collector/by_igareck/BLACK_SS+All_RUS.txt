@@ -1,4 +1,4 @@
-# Обновлено: 2026-06-27 16:02:36 UTC
+# Обновлено: 2026-06-27 18:00:03 UTC
 # Исходный URL: https://github.com/igareck/vpn-configs-for-russia/raw/refs/heads/main/BLACK_SS+All_RUS.txt
 # Автоматическая синхронизация из githubmirror (каждый час)
 #
