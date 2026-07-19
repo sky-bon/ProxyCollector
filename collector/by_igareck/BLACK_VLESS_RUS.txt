@@ -1,4 +1,4 @@
-# Обновлено: 2026-07-19 16:55:05 UTC
+# Обновлено: 2026-07-19 17:56:15 UTC
 # Исходный URL: https://github.com/igareck/vpn-configs-for-russia/raw/refs/heads/main/BLACK_VLESS_RUS.txt
 # Автоматическая синхронизация из githubmirror (каждый час)
 #
