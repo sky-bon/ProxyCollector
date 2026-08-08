@@ -1,4 +1,4 @@
-# Обновлено: 2026-08-08 08:36:26 UTC
+# Обновлено: 2026-08-08 09:33:44 UTC
 # Исходный URL: https://github.com/zieng2/wl/raw/refs/heads/main/vless.txt
 # Автоматическая синхронизация из githubmirror (каждый час)
 #
