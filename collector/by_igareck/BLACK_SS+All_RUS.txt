@@ -1,11 +1,11 @@
-# Обновлено: 2026-09-29 11:03:04 UTC
+# Обновлено: 2026-09-29 17:34:31 UTC
 # Исходный URL: https://github.com/igareck/vpn-configs-for-russia/raw/refs/heads/main/BLACK_SS+All_RUS.txt
 # Автоматическая синхронизация из githubmirror (каждый час)
 #
 # profile-title: 🏴 ЧЕРНЫЕ СПИСКИ 🏴 BLACK LISTS | Полная • Full | SS, Hy2, Vmess, Trojan
 # profile-update-interval: 1
-# Date/Time: 2026-09-29 / 13:21 (Moscow)
-# Количество: 19
+# Date/Time: 2026-09-29 / 20:25 (Moscow)
+# Количество: 7
 # For more info and VPN-configs - visit: www.github.com/igareck/vpn-configs-for-russia
 
 # RU: Эта подписка может содержать Trojan/Hysteria2/Hy2 с legacy-параметрами insecure=1 или allowInsecure=1.
@@ -16,22 +16,10 @@
 # EN: Such configs may cause Xray-core startup errors with Xray-core v26.2.6 and newer in clients that use the Xray-core engine.
 # EN: For compatibility, use Mihomo/Sing-box for Trojan/Hysteria2/Hy2 or Xray-core v26.1.23, the last confirmed working version for such configs.
 
-hysteria2://b8949dae-cb53-4b5a-ad9c-50f58c4656fb@us1.xiaoliyu.us:19512?insecure=1&sni=us1.xiaoliyu.us#.%F0%96%A5%94%20%DD%81%20%CB%96%D6%B4%F0%9F%9B%B8%E0%BC%84%CB%96%C2%B0.%20%7C%20%5BBL%5D
-hysteria2://9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z@162.249.127.137:8443?sni=hop-germany-september.dynuddns.com#%F0%9F%87%A8%F0%9F%87%BF%20Czechia%2C%20Prague%20%7C%20%5BBL%5D
-hysteria2://RQBXe4kpsRant_2u1PzdneBOPuCSwUSI@43.167.208.94:443?insecure=1#%F0%9F%87%AF%F0%9F%87%B5%20Japan%2C%20Shibuya%20City%20%7C%20%5BBL%5D
-hysteria2://RQBXe4kpsRant_2u1PzdneBOPuCSwUSI@43.167.208.94:443?sni=43.167.208.94&insecure=1#%F0%9F%87%AF%F0%9F%87%B5%20Japan%2C%20Shibuya%20City%20%7C%20%5BBL%5D
-hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@rb.mangshe.xyz:2060?insecure=1&sni=rb.mangshe.xyz#%F0%9F%87%AF%F0%9F%87%B5%20Japan%2C%20Shibuya%20City%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@xjp1.mangshe.xyz:2060?sni=xjp1.mangshe.xyz&insecure=1#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-hysteria2://5d0a6445-a30d-4522-bb1f-94f1d3ad63be@xjp2.mangshe.xyz:2060?insecure=1&sni=xjp2.mangshe.xyz#%F0%9F%87%B8%F0%9F%87%AC%20Singapore%2C%20Singapore%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-hysteria2://0db8b567-77f3-4698-80c7-4d7889be8f02@108.181.6.53:50524?sni=iosapps.itunes.apple.com&insecure=1#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Los%20Angeles%20%7C%20%5BBL%5D
-hysteria2://19f72087-4591-4d72-930b-2697078ec2be@us3.xiaoliyu.cyou:18333?insecure=1#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Seattle%20%7C%20%5BBL%5D
-hysteria2://19f72087-4591-4d72-930b-2697078ec2be@us3.xiaoliyu.cyou:18333?insecure=1&sni=us3.xiaoliyu.cyou#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%2C%20Seattle%20%7C%20%5BBL%5D
-hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?alpn=h3#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%5BBL%5D
-hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?sni=msk.frkn.org&insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%5BBL%5D
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0MHNybWR4cm0zeHlqbnZxejlld2x4YjJteXE3cmp1dg@134.195.101.118:2377?plugin=obfs-local%3Bobfs%3Dtls%3Bobfs-host%3D%28Telegram%F0%9F%87%A8%F0%9F%87%B3+%40VPNine1%299f6b1e7%3A141612#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+hysteria2://s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z@77.74.123.102:8443?sni=grape-test-italy.dynuddns.net#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%2C%20Amsterdam%20%7C%20%5BBL%5D
 hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?insecure=1#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
-hysteria2://19f72087-4591-4d72-930b-2697078ec2be@sg1.xiaoliyu.cyou:18333?insecure=1&sni=sg1.xiaoliyu.cyou#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%B8%F0%9F%87%AC%20%7C%20%5BBL%5D
-vmess://eyJ2IjoiMiIsInBzIjoiLvCWpZQg3YEgy5bWtPCfm7jgvITLlsKwLiB8IFtCTF0iLCJhZGQiOiIzMS43Ny44Ljk3IiwicG9ydCI6IjExMCIsImlkIjoiZDJkODYwMWItYzE0Yi00MmM2LWI4ZWEtMzM4ODliY2UxNTJhIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwiYWxwbiI6IiIsImZwIjoiIn0=
-trojan://Telegram_healer_config@104.21.70.21:443?alpn=http%2F1.1&host=47hr9isj-655383snd63hjap38q6t.k-f3vpqaltfsxbtaxe.workers.dev&path=%2Ftr%2Fkp0IOvZwWV0X35ln0vIh%3Fed%3D2560&security=tls&sni=47hr9isj-655383snd63hjap38q6t.k-f3vpqaltfsxbtaxe.workers.dev&type=ws&fp=edge#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A6%F0%9F%87%B7%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AC%F0%9F%87%A7%20%F0%9F%87%AE%F0%9F%87%AA%20%F0%9F%87%B3%F0%9F%87%B1%20%F0%9F%87%B8%F0%9F%87%AA%20%7C%20%5BBL%5D
-trojan://Telegram_healer_config@104.21.70.21:443?alpn=http%2F1.1&host=47hr9isj-655383snd63hjap38q6t.k-f3vpqaltfsxbtaxe.workers.dev&path=%2Ftr%2Fkp0IOvZwWV0X35ln0vIh%3Fed%3D2560&security=tls&sni=47hr9isj-655383snd63hjap38q6t.k-f3vpqaltfsxbtaxe.workers.dev&type=ws&fp=ios#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A6%F0%9F%87%B7%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AC%F0%9F%87%A7%20%F0%9F%87%AE%F0%9F%87%AA%20%F0%9F%87%B3%F0%9F%87%B1%20%F0%9F%87%B8%F0%9F%87%AA%20%7C%20%5BBL%5D
-trojan://Telegram_healer_config@104.21.70.21:443?alpn=http%2F1.1&host=47hr9isj-655383snd63hjap38q6t.k-f3vpqaltfsxbtaxe.workers.dev&path=%2Ftr%2Fkp0IOvZwWV0X35ln0vIh%3Fed%3D2560&security=tls&sni=47hr9isj-655383snd63hjap38q6t.k-f3vpqaltfsxbtaxe.workers.dev&type=ws&fp=qq#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A6%F0%9F%87%B7%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AC%F0%9F%87%A7%20%F0%9F%87%AE%F0%9F%87%AA%20%F0%9F%87%B3%F0%9F%87%B1%20%F0%9F%87%B8%F0%9F%87%AA%20%7C%20%5BBL%5D
-trojan://Telegram_healer_config@104.21.70.21:443?alpn=http%2F1.1&host=47hr9isj-655383snd63hjap38q6t.k-f3vpqaltfsxbtaxe.workers.dev&path=%2Ftr%2Fkp0IOvZwWV0X35ln0vIh%3Fed%3D2560&security=tls&sni=47hr9isj-655383snd63hjap38q6t.k-f3vpqaltfsxbtaxe.workers.dev&type=ws&fp=unsafe#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A6%F0%9F%87%B7%20%F0%9F%87%A8%F0%9F%87%A6%20%F0%9F%87%AC%F0%9F%87%A7%20%F0%9F%87%AE%F0%9F%87%AA%20%F0%9F%87%B3%F0%9F%87%B1%20%F0%9F%87%B8%F0%9F%87%AA%20%7C%20%5BBL%5D
+hysteria2://f317b5d6-d399-4d3d-a051-89d674ae953c@msk.frkn.org:443?security=tls&sni=msk.frkn.org&alpn=h3&insecure=0#%F0%9F%87%B7%F0%9F%87%BA%20Russia%2C%20Moscow%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HrfCfh7AgSG9uZyBLb25nLCBIb25nIEtvbmcgfCBbQkxdIiwiYWRkIjoiMjAuMjM1LjIyMC4xODkiLCJwb3J0IjoiNDQzIiwiaWQiOiJmMjNiYjQyN2MxZjk0MzczODc2YzJmNDNlOWY3OTBmMyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInR5cGUiOiJub25lIiwiaG9zdCI6IjZKRHZBcmF6Z1UzcVFSNlEudi4zZG5zLnZpcCIsInBhdGgiOiIvd3Mtdm1lc3MiLCJ0bHMiOiJ0bHMiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwiYWxwbiI6IiIsImZwIjoiIn0=
+vmess://eyJhZGQiOiIyMC4yMzUuMjIwLjE4OSIsImlkIjoiZjIzYmI0MjdjMWY5NDM3Mzg3NmMyZjQzZTlmNzkwZjMiLCJwb3J0IjoiNDQzIiwic2N5IjoiYXV0byIsInYiOiIyIiwibmV0Ijoid3MiLCJob3N0IjoiNkpEdkFyYXpnVTNxUVI2US52LjNkbnMudmlwIiwicGF0aCI6Ii93cy12bWVzcyIsInRscyI6InRscyIsImFscG4iOiIiLCJmcCI6IiIsInNuaSI6IjZKRHZBcmF6Z1UzcVFSNlEudi4zZG5zLnZpcCIsInBzIjoi8J+HrfCfh7AgSG9uZyBLb25nLCBIb25nIEtvbmcgfCBbQkxdIiwiYWlkIjoiMCIsInR5cGUiOiJub25lIn0=
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HuvCfh7ggVW5pdGVkIFN0YXRlcywgU3QgTG91aXMgKERvd250b3duKSB8IFtCTF0iLCJhZGQiOiIxNzIuNjQuODAuMSIsInBvcnQiOiI4NDQzIiwiaWQiOiI2MDQ0MTU0OC1iNjhlLTQzYjItODE5MS1lM2I4ODRiZTRiM2MiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJ0bHMiOiJ0bHMiLCJhbHBuIjoiIiwic25pIjoidjJyYXkxLmRvemFwcC54eXoiLCJwYXRoIjoiL2xNbnNaVU40LyIsImhvc3QiOiJ2MnJheTEuZG96YXBwLnh5eiIsImZwIjoiIn0=
